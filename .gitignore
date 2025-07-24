@@ -1,0 +1,24 @@
+# .gitignore for .NET projects
+
+# Ignore build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# VS Code files
+.vscode/
+
+# VS files
+.vs/
+
+# Non-tracked files for DB migrations (optional)
+migrations/
